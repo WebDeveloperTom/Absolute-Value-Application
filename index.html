@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  </head>
+  <body>
+    <main>
+      <div class="container">
+          <div class="row">
+              <div class="col-xl-8 offset-xl-2 py-5">
+                  <h1 class="text-center">Contact Form - Inline Inputs and Labels </h1>
+                  <p class="lead text-center">Built using Bootstrap - Fast, Easy, Responsive.</p>
+                  <form id='contact-form' role='form'>
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="form-group row">
+                                    <label for="form_number" class="col-4 col-sm-3 col-md-2 col-form-label">Name</label>
+                                    <div class="col-8 col-sm-9 col-md-10">
+                                      <input id="form_number" type="text" name="name" class="form-control" placeholder="" required="required">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="form-group row">
+                                    <label for="form_number" class="col-4 col-sm-3 col-md-2 col-form-label">Email</label>
+                                    <div class="col-8 col-sm-9 col-md-10">
+                                      <input id="form_number" type="email" name="email" class="form-control" placeholder="" required="required">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="form-group row">
+                                    <label for="form_number" class="col-4 col-sm-3 col-md-2 col-form-label">Message</label>
+                                    <div class="col-8 col-sm-9 col-md-10">
+                                      <textarea id="form_message" name="message" class="form-control" placeholder="Message for me" rows="4" required="required" data-error="Please, leave me a message."></textarea>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-12 text-center">
+                                <input type="submit"  class="btn btn-success btn-send" value="Send message">
+                            </div>
+                        </div>
+                </form>
+              </div>
+          </div>
+      </div>
+    </main>
+  </body>
+</html>
